@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="01/12/2016 09:55:49" ReportInfo.Modified="03/30/2017 10:01:46" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDwssScm+DTUcrG7Ag/TJy+x0qE7mE9DLYUhUjbVG0+rA==">
+      <TableDataSource Name="Table" Alias="HDSHD" DataType="System.Int32" Enabled="true" SelectCommand="SELECT DFA002,SHD001,SHD003,SHD004,SHD005,CONVERT(VARCHAR(20),SHD006,102) SHD006,SHD007,SHD008 FROM HDSHD A LEFT JOIN TPADFA B ON A.SHD002=B.DFA001&#13;&#10;">
+        <Column Name="SHD003" DataType="System.String"/>
+        <Column Name="SHD004" DataType="System.String"/>
+        <Column Name="SHD005" DataType="System.String"/>
+        <Column Name="SHD006" DataType="System.String"/>
+        <Column Name="SHD007" DataType="System.String"/>
+        <Column Name="SHD008" DataType="System.String"/>
+        <Column Name="DFA002" DataType="System.String"/>
+        <Column Name="SHD001" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="Table1" Alias="HDSHE" DataType="System.Int32" Enabled="true" SelectCommand="SELECT SHE004,SHE005,SHE006,SHE007,SHE008,SHE007*SHE008 SHE,SHE009 FROM HDSHE">
+        <Column Name="SHE004" DataType="System.String"/>
+        <Column Name="SHE005" DataType="System.String"/>
+        <Column Name="SHE006" DataType="System.String"/>
+        <Column Name="SHE007" DataType="System.Int32"/>
+        <Column Name="SHE008" DataType="System.Decimal"/>
+        <Column Name="SHE009" DataType="System.String"/>
+        <Column Name="SHE" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="Table2" Alias="HDSHF" DataType="System.Int32" Enabled="true" SelectCommand="SELECT SHF004,SHF005,SHF006,SHF007,SHF008 FROM HDSHF&#13;&#10;">
+        <Column Name="SHF004" DataType="System.Int32"/>
+        <Column Name="SHF005" DataType="System.Decimal"/>
+        <Column Name="SHF006" DataType="System.Int32"/>
+        <Column Name="SHF007" DataType="System.String"/>
+        <Column Name="SHF008" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="230" PaperHeight="135" LeftMargin="4" TopMargin="4" RightMargin="1" BottomMargin="1">
+    <PageHeaderBand Name="PageHeader1" Width="850.5" Height="85.15" CanBreak="true">
+      <TextObject Name="Text1" Width="774.9" Height="28.35" Text="杭州恒达海绵有限公司(送货单)" HorzAlign="Center" VertAlign="Center" Font="宋体, 16pt, style=Bold"/>
+      <TextObject Name="Text2" Left="2" Top="28.35" Width="75.6" Height="28.35" Text="收货单位:" HorzAlign="Right" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text3" Left="80.05" Top="28.35" Width="198.45" Height="28.35" Text="[HDSHD.DFA002]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text4" Left="297.2" Top="28.35" Width="75.6" Height="28.35" Text="日期" HorzAlign="Right" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text5" Left="373.25" Top="28.35" Width="113.4" Height="28.35" Text="[HDSHD.SHD006]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text27" Left="2" Top="56.7" Width="75.6" Height="28.35" Text="采购单号:" HorzAlign="Right" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text28" Left="80.05" Top="56.7" Width="113.4" Height="28.35" Text="[HDSHD.SHD003]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text29" Left="297.2" Top="56.7" Width="75.6" Height="28.35" Text="备料单号:" HorzAlign="Right" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text30" Left="382.7" Top="56.7" Width="113.4" Height="28.35" Text="[HDSHD.SHD004]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text31" Left="579.4" Top="28.35" Width="75.6" Height="28.35" Text="组别" HorzAlign="Right" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text32" Left="665.45" Top="28.35" Width="113.4" Height="28.35" Text="[HDSHD.SHD005]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text33" Left="588.85" Top="56.7" Width="75.6" Height="28.35" Text="送货单号:" HorzAlign="Right" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text34" Left="665.45" Top="56.7" Width="113.4" Height="28.35" Text="[HDSHD.SHD001]" VertAlign="Center" Font="宋体, 10pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="119.61" Width="850.5" Height="37.8" CanBreak="true" FirstRowStartsNewPage="true" DataSource="Table1">
+      <TextObject Name="Text13" Width="151.2" Height="37.8" Border.Lines="All" Text="[HDSHE.SHE005]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text14" Left="151.2" Width="415.8" Height="37.8" Border.Lines="All" Text="[HDSHE.SHE004]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text19" Left="746.55" Width="103.95" Height="37.8" Border.Lines="All" Text="[HDSHE.SHE009]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text15" Left="567" Width="37.8" Height="37.8" Border.Lines="All" Text="[HDSHE.SHE006]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text16" Left="604.8" Width="47.25" Height="37.8" Border.Lines="All" Text="[HDSHE.SHE007]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text17" Left="652.05" Width="47.25" Height="37.8" Border.Lines="All" Text="[HDSHE.SHE008]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text18" Left="699.3" Width="47.25" Height="37.8" Border.Lines="All" Text="[HDSHE.SHE]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <DataHeaderBand Name="DataHeader2" Top="89.15" Width="850.5" Height="26.46">
+        <TextObject Name="Text6" Width="151.2" Height="26.46" Border.Lines="All" Text="料件编号" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+        <TextObject Name="Text7" Left="151.2" Width="415.8" Height="26.46" Border.Lines="All" Text="款号" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+        <TextObject Name="Text8" Left="567" Width="37.8" Height="26.46" Border.Lines="All" Text="单位" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+        <TextObject Name="Text9" Left="604.8" Width="47.25" Height="26.46" Border.Lines="All" Text="数量" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+        <TextObject Name="Text10" Left="652.05" Width="47.25" Height="26.46" Border.Lines="All" Text="单价" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+        <TextObject Name="Text12" Left="746.55" Width="103.95" Height="26.46" Border.Lines="All" Text="备注" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+        <TextObject Name="Text11" Left="699.3" Width="47.25" Height="26.46" Border.Lines="All" Text="金额" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      </DataHeaderBand>
+    </DataBand>
+    <DataBand Name="Data2" Top="193.76" Width="850.5" Height="18.9" DataSource="Table2">
+      <TextObject Name="Text42" Width="103.95" Height="18.9" Border.Lines="All" Text="[HDSHF.SHF004]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text43" Left="103.95" Width="113.4" Height="18.9" Border.Lines="All" Text="[HDSHF.SHF005]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="3" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text44" Left="217.35" Width="103.95" Height="18.9" Border.Lines="All" Text="[HDSHF.SHF006]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text45" Left="321.3" Width="94.5" Height="18.9" Border.Lines="All" Text="[HDSHF.SHF007]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text46" Left="415.8" Width="434.7" Height="18.9" Border.Lines="All" Text="[HDSHF.SHF008]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <DataHeaderBand Name="DataHeader1" Top="161.41" Width="850.5" Height="28.35">
+        <TextObject Name="Text35" Width="103.95" Height="28.35" Border.Lines="All" Text="数量" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+        <TextObject Name="Text41" Left="415.8" Width="434.7" Height="28.35" Border.Lines="All" Text="备注" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+        <TextObject Name="Text36" Left="103.95" Width="113.4" Height="28.35" Border.Lines="All" Text="厚度" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+        <TextObject Name="Text37" Left="217.35" Width="103.95" Height="28.35" Border.Lines="All" Text="密度" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+        <TextObject Name="Text38" Left="321.3" Width="94.5" Height="28.35" Border.Lines="All" Text="名称" VertAlign="Center" Font="宋体, 10pt"/>
+      </DataHeaderBand>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="216.66" Width="850.5" Height="28.35">
+      <TextObject Name="Text52" Width="85.05" Height="28.35" Text="签收人:" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text54" Left="292.95" Width="75.6" Height="28.35" Text="签收日期:" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text55" Left="330.75" Width="170.1" Height="28.35" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text56" Left="637.25" Width="56.7" Height="28.35" Text="发货人:" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

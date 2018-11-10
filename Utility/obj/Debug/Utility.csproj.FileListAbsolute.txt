@@ -1,0 +1,25 @@
+E:\jinxiangdong\person\Project\FishManageMS\SRC\FishSolution\Setup\Utility.dll
+E:\jinxiangdong\person\Project\FishManageMS\SRC\FishSolution\Setup\Utility.pdb
+E:\jinxiangdong\person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.dll
+E:\jinxiangdong\person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.pdb
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Setup\Utility.dll
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Setup\Utility.pdb
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.dll
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.pdb
+E:\jxd\My\FishManageMS20150308\SRC\FishSolution\Setup\Utility.dll
+E:\jxd\My\FishManageMS20150308\SRC\FishSolution\Setup\Utility.pdb
+E:\jxd\My\FishManageMS20150308\SRC\FishSolution\Utility\obj\Debug\Utility.dll
+E:\jxd\My\FishManageMS20150308\SRC\FishSolution\Utility\obj\Debug\Utility.pdb
+E:\jxd\My\FishManageMS20150308\SRC\FishSolution\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+E:\jinxiangdong\person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\Project data\FishSolution\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\Project data\FishSolution\Utility\obj\Debug\Utility.dll
+D:\Project data\FishSolution\Utility\obj\Debug\Utility.pdb
+D:\Project data\FishSolution\Setup\Utility.dll
+D:\Project data\FishSolution\Setup\Utility.pdb
+D:\Project data\HengDa\HengDaSponge\Setup\Utility.dll
+D:\Project data\HengDa\HengDaSponge\Setup\Utility.pdb
+D:\Project data\HengDa\HengDaSponge\Utility\obj\Debug\Utility.dll
+D:\Project data\HengDa\HengDaSponge\Utility\obj\Debug\Utility.pdb
+D:\Project data\HengDa\HengDaSponge\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache

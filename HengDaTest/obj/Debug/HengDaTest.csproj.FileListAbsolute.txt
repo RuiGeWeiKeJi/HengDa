@@ -1,0 +1,8 @@
+D:\Project data\HengDa\HengDaSponge\HengDaTest\bin\Debug\HengDaTest.exe.config
+D:\Project data\HengDa\HengDaSponge\HengDaTest\bin\Debug\HengDaTest.exe
+D:\Project data\HengDa\HengDaSponge\HengDaTest\bin\Debug\HengDaTest.pdb
+D:\Project data\HengDa\HengDaSponge\HengDaTest\obj\Debug\HengDaTest.Form1.resources
+D:\Project data\HengDa\HengDaSponge\HengDaTest\obj\Debug\HengDaTest.Properties.Resources.resources
+D:\Project data\HengDa\HengDaSponge\HengDaTest\obj\Debug\HengDaTest.csproj.GenerateResource.Cache
+D:\Project data\HengDa\HengDaSponge\HengDaTest\obj\Debug\HengDaTest.exe
+D:\Project data\HengDa\HengDaSponge\HengDaTest\obj\Debug\HengDaTest.pdb

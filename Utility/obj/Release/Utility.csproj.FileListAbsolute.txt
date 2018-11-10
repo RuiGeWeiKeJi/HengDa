@@ -1,0 +1,10 @@
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Setup\Utility.dll
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Setup\Utility.pdb
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Release\Utility.dll
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Release\Utility.pdb
+F:\jxd\fish\src\FishSolution\Setup\Utility.dll
+F:\jxd\fish\src\FishSolution\Setup\Utility.pdb
+F:\jxd\fish\src\FishSolution\Utility\obj\Release\Utility.csprojResolveAssemblyReference.cache
+F:\jxd\fish\src\FishSolution\Utility\obj\Release\Utility.dll
+F:\jxd\fish\src\FishSolution\Utility\obj\Release\Utility.pdb
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Release\Utility.csprojResolveAssemblyReference.cache

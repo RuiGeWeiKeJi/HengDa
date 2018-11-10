@@ -1,0 +1,7 @@
+D:\Project data\HengDa\HengDaSponge\HengDaBll\bin\Debug\HengDaBll.dll
+D:\Project data\HengDa\HengDaSponge\HengDaBll\bin\Debug\HengDaBll.pdb
+D:\Project data\HengDa\HengDaSponge\HengDaBll\obj\Debug\HengDaBll.dll
+D:\Project data\HengDa\HengDaSponge\HengDaBll\obj\Debug\HengDaBll.pdb
+D:\Project data\HengDa\HengDaSponge\HengDaBll\obj\Debug\HengDaBll.csprojResolveAssemblyReference.cache
+D:\Project data\HengDa\HengDaSponge\HengDaBll\bin\Debug\HengDaEntity.dll
+D:\Project data\HengDa\HengDaSponge\HengDaBll\bin\Debug\HengDaEntity.pdb
